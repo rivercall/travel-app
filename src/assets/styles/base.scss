@@ -1,1 +1,9 @@
 $bgcolor: #00bcd4;
+html{
+  font-size: 20px;
+}
+.ellipse{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -37,13 +37,14 @@
 
 <style  lang='scss' scoped>
 // 样式穿透有些问题
-  .wrapper >>> .swiper-pagination-bullet-active{
+  .wrapper  >>> .swiper-pagination-bullet-active{
     background:#fff !important;
+    text-align: center
   }
   .wrapper{
     width: 100%;
     height: 0;
-    padding-bottom:31.25%;
+    padding-bottom:26.67%;
     overflow: hidden;
   }
   .swiper-img{

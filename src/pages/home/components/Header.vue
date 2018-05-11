@@ -3,8 +3,8 @@
     <div class="header-left">
       <div class="iconfont">&#xe624;</div>
     </div>
-    <div class="header-input" >
-      <span class="iconfont">&#xe632;</span>
+    <div class="header-input ellipse" >
+      <span class="iconfont ">&#xe632;</span>
       请输入城市/景点/游玩名称
     </div>
     <div class="header-right">
@@ -52,12 +52,8 @@ export default {
       color:#ccc;
       height: 1.5rem;
       line-height: 1.5rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
     }
     .header-right{
-      // width:1.8rem;
       margin: 0 .5rem;
       text-align: center;
       .iconfont{
